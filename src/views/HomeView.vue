@@ -13,6 +13,11 @@
       </div>
     
     </div>
+
+    <div class="links">
+      <a href="https://github.com/yonelamangele" target="_blank"> <i class="fa-brands fa-github fa-2x"></i> </a> 
+      <a href="https://www.linkedin.com/in/yonela-mangele-125044316/" target="_blank"> <i class="fa-brands fa-linkedin fa-2x"></i> </a>
+    </div>
   </div>
 </template>
 
@@ -87,5 +92,11 @@ export default {
     display: flex;
     justify-content: space-evenly;
 }
+.links a{
+  margin: 5px;
+}
 
+/* icons {
+  height: ;
+}. */
 </style>

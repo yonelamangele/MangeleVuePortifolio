@@ -48,8 +48,3 @@ export default {
 
 <!-- vuejs - <i class="fa-brands fa-vuejs"></i> -->
 
-<!-- email icon - <i class="fa-solid fa-envelope"></i> -->
-
-<!-- location - <i class="fa-solid fa-location-dot"></i> -->
-
-<!-- phone - <i class="fa-solid fa-phone"></i> -->
