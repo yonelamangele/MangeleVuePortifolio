@@ -1,7 +1,8 @@
 <template>
     <div>
-        <h1> My projects </h1>
+            <slot name="resumeSlot"></slot>
             <slot name="projectSlot"></slot>
+            <slot name="testimonialSlot"></slot>
             <slot></slot>
     </div>
 </template>
@@ -14,7 +15,5 @@ export default {
     h1 {
         color: white;
     }
-    /* .damn {
 
-    } */
 </style>

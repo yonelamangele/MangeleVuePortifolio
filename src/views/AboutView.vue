@@ -41,4 +41,38 @@ export default {
   .stuff {
     color: white
   }
+
+  .par {
+  animation-name: slide-in-right;
+  animation-duration: 6s;
+}
+
+.nav-link {
+  color: white;
+}
+
+
+.pic {
+  height: 400px;
+  width: 300px
+}
+.photo {
+  height: 400px;
+  width: 300px;
+  border-radius: 10px;
+  
+}
+
+.par {
+  height: 400px;
+  color: white;
+  align-content: center;
+}
+
+.middle {
+    margin: 5ch;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
 </style>
