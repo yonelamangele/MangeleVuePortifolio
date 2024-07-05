@@ -28,21 +28,21 @@ export default createStore({
   },
   actions: {
     async getAboutMe(content){
-      let fetchedInfo = await fetch('https://yonelamangele.github.io/json-thingy/data.json')
+      let fetchedInfo = await fetch('https://yonelamangele.github.io/json-pics/data.json')
       let about = await fetchedInfo.json();
       let {aboutMe} = about
       content.commit('setAboutMe', aboutMe[0].para)
     },
     
       async getResume(content){
-      let fetchedInfo = await fetch('https://yonelamangele.github.io/json-thingy/data.json')
+      let fetchedInfo = await fetch('https://yonelamangele.github.io/json-pics/data.json')
       let about = await fetchedInfo.json();
       let {resume} = about
       content.commit('setResume', resume)
       },
     
       async getProjects(content){
-      let fetchedInfo = await fetch('https://yonelamangele.github.io/json-thingy/data.json')
+      let fetchedInfo = await fetch('https://yonelamangele.github.io/json-pics/data.json')
       let pro = await fetchedInfo.json();
       let {projects} = pro
       content.commit('setProjects', projects)
@@ -55,14 +55,14 @@ export default createStore({
       // },
     
       async getTestimonials(content){
-      let fetchedInfo = await fetch('https://yonelamangele.github.io/json-thingy/data.json')
+      let fetchedInfo = await fetch('https://yonelamangele.github.io/json-pics/data.json')
       let about = await fetchedInfo.json();
       let {testimonials} = about
       content.commit('setTestimonials', testimonials)
       },
     
       async getContacts(content){
-      let fetchedInfo = await fetch('https://yonelamangele.github.io/json-thingy/data.json')
+      let fetchedInfo = await fetch('https://yonelamangele.github.io/json-pics/data.json')
       let about = await fetchedInfo.json();
       let {contacts} = about
       content.commit('setContacts', contacts)
