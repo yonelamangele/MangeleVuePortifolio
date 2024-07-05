@@ -1,10 +1,10 @@
 <template>
+    <h1> My Projects </h1>
     <projects-comp>
         <template #projectSlot>
             <section>
 
                 <div class="stuff" v-for="project in projects()" :key="project">
-                    
                     <div class="row row-cols-1 row-cols-md-2 g-4 card-proj">
                         <div class="col">
                             <div class="card">
@@ -47,36 +47,8 @@ export default {
     }
 }
 </script>
-<style>
-.header {
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
+<style scoped>
 
-.logo {
-    margin: 2ch;
-    border-radius: 1ch;
-    justify-content: space-between;
-}
-
-.tabs {
-    align-content: center;
-    margin: ch;
-    border-radius: 1ch;
-
-}
-
-/* .row {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    place-items: center;
-} */
-
-.heading {
-    margin: 25ch;
-    justify-content: center;
-}
 
 .card {
     background-color: #4542DD;
